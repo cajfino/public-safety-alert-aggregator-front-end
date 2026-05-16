@@ -11,12 +11,13 @@ export default function Home(){
             {/* nav component*/}
             <Navbar/>
             {/* drawer */}
-            <Drawer/>
-            <div className="main-content">
+            {/* <Drawer/> */}
+            <main>
+                <p>Main content</p>
                 {/* Left sidebar (AlertList) component*/}
                 <AlertList/>
                 {/* map component*/}
-            </div> 
+            </main> 
             {/* Footer component*/}
             <Footer/>
         </>

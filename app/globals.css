@@ -1,13 +1,46 @@
 /* ── RESET ── */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--body-bg-color);
+  margin: 0;
+}
 
 /* ── VARIABLES ── */
+:root {
+  --nav-footer-bg-color: green;
+  --body-bg-color: rgb(195, 255, 195);
+}
 
 /* ── NAV ── */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--nav-footer-bg-color);
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-controls {
+  display: flex;
+  gap: 0.8em;
+}
 
 /* ── DRAWER ── */
 
 /* ── MAIN LAYOUT ── */
+main {
+  flex: 1;
+}
 
 /* ── FOOTER ── */
+footer {
+  background-color: var(--nav-footer-bg-color);
+}
 
 /* ── MODALS ── */

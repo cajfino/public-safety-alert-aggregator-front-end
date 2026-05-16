@@ -2,7 +2,8 @@ export default function Navbar(){
     return(
         <nav>
             <div className="nav-logo">
-                <img src="/" alt="Critical Signal logo" />
+                {/* <img src="/" alt="logo" /> */}
+                <span className="nav-logo-icon">👽</span>
                 <p>Critical Signal</p>
             </div>
             <div className="nav-controls">

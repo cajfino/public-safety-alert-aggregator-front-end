@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
-        <>
-            <p>The footer</p>
-        </>
+       <footer>
+        <p>© Critical Signal</p>
+       </footer>
     );
 }

@@ -4,13 +4,27 @@ body {
   flex-direction: column;
   height: 100vh;
   background-color: var(--body-bg-color);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
   margin: 0;
 }
 
 /* ── VARIABLES ── */
 :root {
-  --nav-footer-bg-color: green;
-  --body-bg-color: rgb(195, 255, 195);
+  --nav-footer-bg-color: #1a1a2e;
+  --body-bg-color: #0f0f1a;
+  --surface-color: #16213e;
+  --border-color: #2a2a4a;
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --accent-color: #6366f1;
 }
 
 /* ── NAV ── */
@@ -36,11 +50,26 @@ nav {
 /* ── MAIN LAYOUT ── */
 main {
   flex: 1;
+  border: 1px solid var(--border-color);
+  display: flex;
+}
+
+aside {
+  width: 30%;
+  background-color: var(--surface-color);
+}
+
+article {
+  width: 100%;
+  border: 1px solid var(--border-color);
+  background-color: var(--surface-color);
+  display: block;
 }
 
 /* ── FOOTER ── */
 footer {
   background-color: var(--nav-footer-bg-color);
+  color: var(--text-primary);
 }
 
 /* ── MODALS ── */

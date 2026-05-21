@@ -13,7 +13,6 @@ export default function Home(){
             {/* drawer */}
             {/* <Drawer/> */}
             <main>
-                <p>Main content</p>
                 {/* Left sidebar (AlertList) component*/}
                 <AlertList/>
                 {/* map component*/}
